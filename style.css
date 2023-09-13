@@ -378,6 +378,7 @@ p {
 #projects .project-img {
 	flex-basis: 50%;
 	height: 200px;
+	border-radius: 10px;
 	overflow: visible;
 	position: relative;
 }
@@ -392,7 +393,7 @@ p {
 	opacity: 0.05;
 }
 #projects .project-img img {
-	transition: 0.3s ease transform;
+	transition: 0.2s ease-in-out transform;
 }
 #projects .project-item:hover .project-img img {
 	transform: scale(.9);
@@ -463,7 +464,7 @@ p {
 	padding: 20px;
 	text-align: center;
 	border-radius: 10px;
-	padding: 30px;
+	padding: 10px;
 	margin: 30px;
 	display: flex;
 	justify-content: center;
@@ -498,6 +499,7 @@ p {
 }
 #footer .footer {
 	min-height: 200px;
+	min-width: 1300px;
 	flex-direction: column;
 	padding-top: 50px;
 	padding-bottom: 10px;
@@ -570,7 +572,7 @@ p {
 @media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
-		padding: 20px 60px;
+		padding: 10px 30px;
 	}
 	h1.section-title {
 		font-size: 6rem;
